@@ -31,6 +31,8 @@ class MajorityElement {
             }
         }
 
+        //we do not check if candidate is a majority, because we assume that a majority always exists.
+        //otherwise we should check if candidate occurences are > n/2
         return candidate
     }
 }
